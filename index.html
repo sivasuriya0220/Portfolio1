@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva Suriya Portfolio</title>
+<style>
+    body{
+            background-color:#023047;
+            font-family:Calibri;
+    }
+    #card{
+        width: 1324px;
+        height: 602px;
+        border-radius: 20px;
+        background: #3DBBC3;
+        margin-top: 25px;
+        margin-left: 12px;
+    }
+    .batch{
+        margin: 32px 0px 0px 50px;
+    }
+    .navbar a{
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 27px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .navbar ul button{
+        padding: 0px 25px;
+        margin-left: 16px;
+        margin-right: 20px;
+        border: none;
+        border-radius: 8px;
+        color: #ffffff;
+        background-color: #023047;
+        font-size: 15px;
+        font-weight: 600;
+        
+    }
+    .navbar ul button:hover{
+        background-color: #111111;
+        color: #3DBBC3;
+    }
+
+    .navbar ul li{
+        list-style-type: none;
+        padding: 0;
+    }
+    .navbar{
+        float: right;
+        margin: 12px 50px;
+    }
+    .navbar ul{
+        display: flex;
+        margin: 17px 0px;
+    }
+    .personal-info button{
+        padding: 16px 20px;
+        border: none;
+        border-radius: 10px;
+        margin: 25px 0 0 0px;
+        background-color: #023047;
+        font-weight: 600;
+    }
+    .personal-info button a{
+        text-decoration: none;
+        color: #ffffff;
+        /* padding: 12px 12px 29px; */
+        font-size: 18px;
+    }
+    .personal-info{
+        display: grid;
+        grid-template-columns: auto auto;
+        height: 500px;
+    }
+    .grid-item-1{
+        padding: 60px 0 0 150px;
+        width: 500px;
+    }
+    .grid-item-1 h2{
+        font-size: 30px;
+        margin: 0;
+    }
+    .grid-item-1 h1{
+        font-size: 50px;
+        color: white;
+        font-style: italic;
+        margin: 10px 0 0 0; 
+    }
+    .grid-item-1 h3{
+        margin: 10px 0 0 0;
+        font-size: 28px;
+    }
+    .grid-item-1 p{
+        margin: 20px 0 0 0;
+        width: 80%;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .grid-item-2{
+        margin: 100px 30px 0 70px;
+        /* padding: 1px 0 0 309px; */
+        width: 500px;
+        height: 430px;
+        float: right;
+    }
+    .img-1{
+        width: 400px;
+        position: absolute;
+        right: 242px;
+        top: 178px;
+    }
+    .p1{
+        width: 138px;
+        height: 30px;
+        background-color: #8ECAE6;
+        position: absolute;
+        top: 220px;
+        right: 582px;
+        text-align: center;
+        padding: 10px 0 0 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-family: calibri;
+        float: right;
+    }
+    .p2{
+        width: 138px;
+        height: 30px;
+        background-color: #8ECAE6;
+        position: absolute;
+        bottom: 80px;
+        right: 552px;
+        text-align: center;
+        padding: 10px 0 0 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-family: calibri;
+        float: right;
+    }
+    .p3{
+        width: 138px;
+        height: 30px;
+        background-color: #8ECAE6;
+        position: absolute;
+        bottom: 222px;
+        right: 138px;
+        text-align: center;
+        padding: 10px 0 0 0;
+        border-radius: 10px;
+        font-weight: 600;
+        font-family: calibri;
+        float: right;
+    }
+   .star-1{
+    position: absolute;
+    top: 152px;
+    right: 577px;
+   }
+   .star-2{
+    position: absolute;
+    bottom: 189px;
+    right: 638px;
+   }
+   .star-3{
+    position: absolute;
+    top: 220px;
+    right: 226px;
+   }
+   .star-4{
+    position: absolute;
+    right: 365px;
+    bottom: 83px;
+   }
+   .social-media{
+    position: relative;
+    /* top: 24px; */
+    bottom: 112px;
+    left: 72px;
+   }
+   .social-media ul{
+    display: inline-flex;
+    list-style: none;
+   }
+   .social-media ul li{
+    padding: 0 32px 0 0;
+   }
+   .navbar ul li a:hover{
+       color:#3DBBC3;
+       font-weight: 600;
+       font-size: 17px;
+       border-radius: 10px;
+       background-color: #023047;
+   }
+   .grid-item-1 button:hover{
+       background-color: #111111;
+   }
+
+
+</style>
+</head>
+<body>
+   <div id="card">
+    <img class="batch" src="C:\Users\sivas\Downloads\Layer 2.svg">
+    <div class="navbar">
+        <ul>
+            <li><a class="home" href="#">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <button onclick="window.location.href='contact.html';">Contact</button>
+        </ul>               
+    </div>
+    <div class="personal-info">
+    <div class="grid-item-1">
+        <h2>Hello World!</h2>
+        <h1>I'm Siva Suriya</h1>
+        <h3>I'm a UI/UX Designer</h3>
+        <p>I Focused on creating powerful & meaningful experiences through design</p>
+        <button><a href="https://drive.google.com/file/d/1otebfcoYNi89KGY422oARmsHLAWw8HBC/view?usp=sharing" download>Download CV</a></button>
+    </div>
+    <div class="grid-item-2">
+                <img class="img-1" src="C:\Users\sivas\Downloads\image01-01.svg"> 
+                <p class="p1">UI/UX Designer</p>
+                <p class="p2">Web Designer</p>
+                <p class="p3">Graphic Designer</p>               
+                <img class="star-1" src="C:\Users\sivas\Downloads\Asset 2 1.svg">
+                <img class="star-2" src="C:\Users\sivas\Downloads\Asset 2 1.svg">
+                <img class="star-3" src="C:\Users\sivas\Downloads\Asset 2 1.svg">
+                <img class="star-4" src="C:\Users\sivas\Downloads\Asset 2 1.svg">            
+           </div>
+    <div class="social-media">
+        <ul>
+            <li><a href="https://www.instagram.com/accounts/login/" target="_blank"><img class="insta" src="C:\Users\sivas\Downloads\Instagram.svg"></a></li>
+            <li><a href="https://www.linkedin.com/in/siva-suriya-6068691b1/" target="_blank"><img class="linkedin" src="C:\Users\sivas\Downloads\LinkedIn.svg"></a></li>
+            <li><a href="https://join.skype.com/invite/KzSQkFvt1DeB" target="_blank"><img class="skype" src="C:\Users\sivas\Downloads\Skype.svg"></a></li>
+            <li><a href="https://www.behance.net/sivasuriyas" target="_blank"><img class="behance" src="C:\Users\sivas\Downloads\Behance.svg"></a></li>
+        </ul>
+       </div>
+    </div>
+    
+    
+       
+   </div>
+
+   
+
+   
+</body>
+</html>
